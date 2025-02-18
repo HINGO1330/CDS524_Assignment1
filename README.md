@@ -29,13 +29,18 @@ A predator-prey simulation system based on the Q-Learning algorithm, implemented
 
 ## ⚙️ Terminal installation
 pip install turtle
+
 pip install numpy
+
 pip install numpy pyyaml
 
 ## 🧠 Algorithm Parameters
 Parameter	Value	Description
+
 α (Learning Rate)	0.1	Speed of new knowledge absorption
+
 γ (Discount Factor)	0.9	Importance of future rewards
+
 ε (Exploration Rate)	0.1	Probability of random exploration
 
 ## ⚙️ Running Effects
