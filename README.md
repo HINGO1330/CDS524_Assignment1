@@ -40,13 +40,22 @@ Parameter	Value	Description
 
 ## ⚙️ Running Effects
 Red squares: Obstacles
+
 Black border: Arena boundary
+
 Real-time score display for both sides
+
 Automatic position reset upon successful predation
+
 Prey automatically escapes if not caught within 70 steps
 
-📚 Training Instructions
-The code includes training logic (commented by default). To retrain:
+## 📚 Training Instructions
+The code includes training logic (commented by default). 
+
+To retrain:
+
 Uncomment the Q-table initialization section
+
 Comment out the pre-trained model loading section
+
 Adjust training loop parameters
